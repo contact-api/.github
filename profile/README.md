@@ -5,14 +5,14 @@ Contact API is a modular TypeScript ecosystem for building and deploying contact
 ## Repositories
 
 ### Core
-- `core`: Platform-agnostic contact form logic: CORS, validation, honeypot, and email orchestration ([npm](https://www.npmjs.com/package/@contact-api/core))
+- [`core`](https://github.com/contact-api/core) ([npm](https://www.npmjs.com/package/@contact-api/core)): Platform-agnostic contact form logic: CORS, validation, honeypot, and email orchestration
 
 ### Providers
-- `resend`: Resend email provider ([npm](https://www.npmjs.com/package/@contact-api/resend))
-- `nodemailer`: Nodemailer (SMTP) email provider ([npm](https://www.npmjs.com/package/@contact-api/nodemailer))
+- [`resend`](https://github.com/contact-api/resend) ([npm](https://www.npmjs.com/package/@contact-api/resend)): Resend email provider
+- [`nodemailer`](https://github.com/contact-api/nodemailer) ([npm](https://www.npmjs.com/package/@contact-api/nodemailer)): Nodemailer (SMTP) email provider
 
 ### Platforms
-- `vercel`: Vercel deployment adapter
+- [`vercel`](https://github.com/contact-api/vercel): Vercel deployment adapter
 
 ### Demo
-- `demo`: Live API testing demos
+- [`demo`](https://github.com/contact-api/demo): Live API testing demos
