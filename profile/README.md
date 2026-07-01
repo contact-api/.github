@@ -2,17 +2,17 @@
 
 Contact API is a modular TypeScript ecosystem for building and deploying contact form backends.
 
+[![License](https://img.shields.io/github/license/contact-api/.github)](https://github.com/contact-api/.github/blob/main/LICENSE)
+
 ## Repositories
 
-### Core
-- [`core`](https://github.com/contact-api/core) ([npm](https://www.npmjs.com/package/@contact-api/core)): Platform-agnostic contact form logic: CORS, validation, honeypot, and email orchestration
-
-### Providers
-- [`resend`](https://github.com/contact-api/resend) ([npm](https://www.npmjs.com/package/@contact-api/resend)): Resend email provider
-- [`nodemailer`](https://github.com/contact-api/nodemailer) ([npm](https://www.npmjs.com/package/@contact-api/nodemailer)): Nodemailer (SMTP) email provider
-
-### Platforms
-- [`vercel`](https://github.com/contact-api/vercel): Vercel deployment adapter
-
-### Demo
-- [`demo`](https://github.com/contact-api/demo): Live API testing demos
+| Name/Category | URL(s) | Description |
+| ------------- | ------ | ----------- |
+| Core                                 |
+| Core | [GitHub](https://github.com/contact-api/core), [npm](https://www.npmjs.com/package/@contact-api/core) | Platform-agnostic contact form logic: CORS, validation, honeypot, and email orchestration |
+| Demo | [GitHub](https://github.com/contact-api/demo), [Demo](https://www.masonletoile.ca/contact-api-demo/) | Live API testing demos |
+| Providers                            |
+| Resend | [GitHub](https://github.com/contact-api/resend), [npm](https://www.npmjs.com/package/@contact-api/resend) | Resend email provider |
+| Nodemailer | [GitHub](https://github.com/contact-api/nodemailer), [npm](https://www.npmjs.com/package/@contact-api/nodemailer) | Nodemailer (SMTP) email provider |
+| Platforms                            |
+| Vercel | [GitHub](https://github.com/contact-api/vercel) | Vercel deployment adapter |
