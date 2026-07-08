@@ -2,13 +2,12 @@
 
 Contact API is a modular TypeScript ecosystem for building and deploying contact form backends.
 
-[![License](https://img.shields.io/github/license/contact-api/.github)](https://github.com/contact-api/.github/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](../LICENSE)
 
 ## Repositories
 
 | Name/Category | URL(s) | Description |
 | ------------- | ------ | ----------- |
-| Core                                 |
 | Core | [GitHub](https://github.com/contact-api/core), [npm](https://www.npmjs.com/package/@contact-api/core) | Platform-agnostic contact form logic: CORS, validation, honeypot, and email orchestration |
 | Demo | [GitHub](https://github.com/contact-api/demo), [Demo](https://www.masonletoile.ca/contact-api-demo/) | Live API testing demos |
 | Providers                            |
