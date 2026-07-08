@@ -1,0 +1,16 @@
+name: Build
+
+on:
+  workflow_call:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./.github/actions/setup
+
+      - name: TypeScript typecheck
+        run: npm run typecheck
+
+      - name: Build
+        run: npm run build
