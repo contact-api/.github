@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: contact-api/.github/.github/actions/setup@v1.0.0
+      - uses: contact-api/.github/.github/actions/setup@v1.0.1
 
       - name: TypeScript typecheck
         run: npm run typecheck
