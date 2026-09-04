@@ -10,7 +10,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: contact-api/.github/.github/actions/setup@v1.0.1
+      - uses: contact-api/.github/.github/actions/setup@v1.1.0
         with:
           registry-url: 'https://registry.npmjs.org'
 
